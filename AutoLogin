@@ -2,7 +2,7 @@
 #
 # Copyright (C) 2021 BitSrunLoginGo
 #
-# This is free software, licensed under the GNU General Public License v3.
+# This is free software, licensed under the GNU Affero General Public License v3.
 # See /LICENSE for more information.
 #
 
@@ -13,7 +13,7 @@ SERVICE_DAEMONIZE=1
 NAME=AutoLogin
 
 start(){
-    /usr/bin/BitSrunLoginGo --config=/etc/config/BitSrunLoginGo.json
+    /usr/bin/BitSrunLoginGo --config=/etc/config/BitSrunLoginGo.json --daemon
 }
 
 stop() {
