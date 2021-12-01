@@ -1,0 +1,21 @@
+#!/bin/sh /etc/rc.common
+#
+# Copyright (C) 2021 BitSrunLoginGo
+#
+# This is free software, licensed under the GNU General Public License v3.
+# See /LICENSE for more information.
+#
+
+START=99
+STOP=15
+
+SERVICE_DAEMONIZE=1
+NAME=AutoLogin
+
+start(){
+    /usr/bin/BitSrunLoginGo --config=/etc/config/BitSrunLoginGo.json >/dev/null 2>&1
+}
+
+stop() {
+    killall -q BitSrunLoginGo
+}
