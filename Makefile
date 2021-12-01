@@ -49,7 +49,7 @@ define BitSrunLoginGo/templates
 	$$(INSTALL_DIR) $$(1)/usr/bin
 	$$(INSTALL_BIN) $$(PKG_INSTALL_DIR)/usr/bin/$(1) $$(1)/usr/bin/
 	$$(INSTALL_DIR) $$(1)/etc/init.d
-	$(INSTALL_CONF) ./AutoLogin $$(1)/etc/init.d/
+	$$(INSTALL_BIN) ./AutoLogin $$(1)/etc/init.d/
 
 	$(STAGING_DIR_HOST)/bin/upx --lzma --best $$(1)/usr/bin/$(1) || true
   endef
