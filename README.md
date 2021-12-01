@@ -7,4 +7,6 @@ BitSrunLoginGo的openwrt插件
 `make menuconfig` -> Utilities -> BitSrunLoginGo
 
 # 使用
-`AutoLogin start`
+`service AutoLogin start` 首次运行后，编辑 `/etc/config/BitSrunLoginGo.json`
+
+`service AutoLogin enable` 开机启动
