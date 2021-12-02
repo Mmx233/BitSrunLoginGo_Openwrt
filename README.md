@@ -14,7 +14,7 @@ git clone -b v2.7 https://github.com/Mmx233/BitSrunLoginGo_Openwrt
 
 # 编译
 ```shell
-make packages/BitSrunLoginGo_Openwrt/complie
+make packages/BitSrunLoginGo_Openwrt/compile
 ```
 
 # 使用
