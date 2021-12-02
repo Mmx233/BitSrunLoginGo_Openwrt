@@ -12,6 +12,8 @@ git clone -b v2.7 https://github.com/Mmx233/BitSrunLoginGo_Openwrt
 # 选择插件
 `make menuconfig` -> Utilities -> BitSrunLoginGo
 
+需要约1.3Mb存储空间
+
 # 编译
 ```shell
 make packages/BitSrunLoginGo_Openwrt/compile
