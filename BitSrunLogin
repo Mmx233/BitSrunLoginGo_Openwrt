@@ -1,6 +1,6 @@
 #!/bin/sh /etc/rc.common
 #
-# Copyright (C) 2021 BitSrunLoginGo
+# Copyright (C) 2021 Mmx
 #
 # This is free software, licensed under the GNU Affero General Public License v3.
 # See /LICENSE for more information.
@@ -10,7 +10,7 @@ START=99
 STOP=15
 
 SERVICE_DAEMONIZE=1
-NAME=AutoLogin
+NAME=BitSrunLogin
 
 start(){
     /usr/bin/BitSrunLoginGo --config=/etc/config/BitSrunLoginGo.json --daemon
