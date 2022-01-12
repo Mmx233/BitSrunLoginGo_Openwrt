@@ -5,7 +5,7 @@ BitSrunLoginGo的openwrt插件
 
 # 下载源码
 ```shell
-cd packages
+cd package
 git clone -b v2.7 https://github.com/Mmx233/BitSrunLoginGo_Openwrt
 ```
 
@@ -16,7 +16,7 @@ git clone -b v2.7 https://github.com/Mmx233/BitSrunLoginGo_Openwrt
 
 # 编译
 ```shell
-make packages/BitSrunLoginGo_Openwrt/compile
+make package/BitSrunLoginGo_Openwrt/compile
 ```
 
 # 使用
