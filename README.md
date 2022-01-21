@@ -6,13 +6,13 @@ BitSrunLoginGo的openwrt插件
 # 下载源码
 ```shell
 cd package
-git clone -b v2.7 https://github.com/Mmx233/BitSrunLoginGo_Openwrt
+git clone -b v2.8 https://github.com/Mmx233/BitSrunLoginGo_Openwrt
 ```
 
 # 选择插件
 `make menuconfig` -> Utilities -> BitSrunLoginGo
 
-需要约1.3Mb存储空间
+需要约1.5Mb存储空间
 
 # 编译
 ```shell
