@@ -13,7 +13,7 @@ SERVICE_DAEMONIZE=1
 NAME=BitSrunLogin
 
 start(){
-    /usr/bin/BitSrunLoginGo --config=/etc/config/BitSrunLoginGo.json --daemon
+    /usr/bin/BitSrunLoginGo --config=/etc/config/BitSrunLoginGo.yaml --daemon
 }
 
 stop() {
