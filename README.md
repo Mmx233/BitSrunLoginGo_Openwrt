@@ -6,7 +6,7 @@ BitSrunLoginGo的openwrt插件
 # 下载源码
 ```shell
 cd package
-git clone -b v2.8 https://github.com/Mmx233/BitSrunLoginGo_Openwrt
+git clone -b v2.8.feat-1 https://github.com/Mmx233/BitSrunLoginGo_Openwrt
 ```
 
 # 选择插件
@@ -20,7 +20,9 @@ make package/BitSrunLoginGo_Openwrt/compile
 ```
 
 # 使用
-`service BitSrunLogin start` 首次运行后，编辑 `/etc/config/BitSrunLoginGo.json`
+`service BitSrunLogin start` 首次运行后，编辑 `/etc/config/BitSrunLoginGo.yaml`
+
+更新新版本时，应检查配置文件，否则可能无法运行
 
 `service BitSrunLogin enable` 开机启动
 
