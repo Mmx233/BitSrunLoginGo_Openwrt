@@ -26,6 +26,8 @@ PKG_USE_MIPS16:=0
 GO_PKG:=github.com/Mmx233/BitSrunLoginGo
 
 GO_PKG_LDFLAGS:=-s -w
+GO_PKG_GCFLAGS:=-trimpath=$GOPATH
+GO_PKG_ASMFLAGS:=-trimpath=$GOPATH
 
 include $(INCLUDE_DIR)/package.mk
 include $(TOPDIR)/feeds/packages/lang/golang/golang-package.mk
