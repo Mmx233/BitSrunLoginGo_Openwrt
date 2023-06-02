@@ -1,4 +1,7 @@
 # BitSrunLoginGo_Openwrt
+
+**该仓库已停止维护，请移步 [immortalwrt/packages](https://github.com/immortalwrt/packages)**
+
 BitSrunLoginGo的openwrt插件
 
 详细用法见 [BitSrunLoginGo](https://github.com/Mmx233/BitSrunLoginGo)
